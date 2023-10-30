@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: swatch-system-conduit
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-system-conduit@sha256:3b08ceea7faa751d1c6900590a347733a5d5c7041bdcc96e1cdaf8e3d000a1bc
+        name: container-image
+        resources: {}
+status: {}
