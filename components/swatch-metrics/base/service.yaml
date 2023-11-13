@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: swatch-metrics
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: swatch-metrics
+    app.kubernetes.io/part-of: rhsm-subscriptions
+  name: swatch-metrics
+spec:
+  ports:
+  - port: 8000
+    targetPort: 8000
+  selector:
+    app.kubernetes.io/instance: swatch-metrics
+status:
+  loadBalancer: {}
