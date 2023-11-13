@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: swatch-metrics
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-metrics@sha256:29b74ebfa1d0c571214bc6db42cd2b3fcfd4030727818f20c9a85e4967d4c2ea
+        name: container-image
+        resources: {}
+status: {}
