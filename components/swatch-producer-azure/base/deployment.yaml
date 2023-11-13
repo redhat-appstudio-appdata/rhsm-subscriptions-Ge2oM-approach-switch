@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: swatch-producer-azure
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: swatch-producer-azure
+    app.kubernetes.io/part-of: rhsm-subscriptions
+  name: swatch-producer-azure
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: swatch-producer-azure
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/instance: swatch-producer-azure
+    spec:
+      containers:
+      - image: image
+        imagePullPolicy: Always
+        name: container-image
+        ports:
+        - containerPort: 8000
+        resources:
+          requests:
+            cpu: 10m
+            memory: 256Mi
+status: {}
