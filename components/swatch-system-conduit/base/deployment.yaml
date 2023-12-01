@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: swatch-system-conduit
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-system-conduit@sha256:8bd571dd4ea698b6248e3abf5528b9260c7f2c4d4db33c7bfb3732a84376b798
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-system-conduit@sha256:e75d85d085db7d68e914ad53c6366d93344ef241aa56e213967e102f5a122d9a
         imagePullPolicy: Always
         name: container-image
         ports:
