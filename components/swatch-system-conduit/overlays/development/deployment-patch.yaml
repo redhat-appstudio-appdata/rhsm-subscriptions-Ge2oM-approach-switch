@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: swatch-system-conduit
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
