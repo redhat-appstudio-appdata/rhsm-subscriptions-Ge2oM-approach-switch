@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: swatch-producer-aws
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
