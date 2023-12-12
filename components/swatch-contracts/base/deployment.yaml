@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: swatch-contracts
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-contracts@sha256:68dfc754d6458836b3d78b2767c84b6e56a640fd03edaf02dceb3134ed870d77
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-contracts@sha256:9d1f68f948df5fdf54467306a497019a379bce23c73c5c190e7e15d79f1b754a
         imagePullPolicy: Always
         name: container-image
         ports:
