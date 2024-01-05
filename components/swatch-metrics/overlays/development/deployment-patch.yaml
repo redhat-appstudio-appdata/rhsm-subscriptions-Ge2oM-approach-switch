@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-metrics@sha256:3f3c379b710675b1cde0d460d0af44a36e3c0ecafaef55ebe87ff41a554d96eb
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-metrics@sha256:11bea86fdc11d00b8b249cebba0c06d9977f53c456c8f8119bb6da384e59480d
         name: container-image
         resources: {}
 status: {}
