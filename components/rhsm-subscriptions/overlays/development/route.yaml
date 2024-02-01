@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rhsm-subscriptions
     app.kubernetes.io/part-of: rhsm-subscriptions
-  name: rhsm-subscriptionsfh6g
+  name: rhsm-subscriptions8iv1
 spec:
   port:
     targetPort: 8000
