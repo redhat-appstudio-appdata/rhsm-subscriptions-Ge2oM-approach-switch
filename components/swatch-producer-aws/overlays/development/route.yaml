@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: swatch-producer-aws
     app.kubernetes.io/part-of: rhsm-subscriptions
-  name: swatch-producer-awsgeqt
+  name: swatch-producer-awslixy
 spec:
   port:
     targetPort: 8000
