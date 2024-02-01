@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: swatch-producer-azure
     app.kubernetes.io/part-of: rhsm-subscriptions
-  name: swatch-producer-azurehhip
+  name: swatch-producer-azureumal
 spec:
   port:
     targetPort: 8000
