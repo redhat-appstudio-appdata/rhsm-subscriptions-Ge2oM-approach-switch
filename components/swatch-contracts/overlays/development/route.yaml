@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: swatch-contracts
     app.kubernetes.io/part-of: rhsm-subscriptions
-  name: swatch-contractsizqz
+  name: swatch-contractsdkzx
 spec:
   port:
     targetPort: 8000
