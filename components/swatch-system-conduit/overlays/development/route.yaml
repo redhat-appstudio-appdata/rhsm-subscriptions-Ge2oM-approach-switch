@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: swatch-system-conduit
     app.kubernetes.io/part-of: rhsm-subscriptions
-  name: swatch-system-conduitssnu
+  name: swatch-system-conduitffdq
 spec:
   port:
     targetPort: 8000
