@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: swatch-metrics
     app.kubernetes.io/part-of: rhsm-subscriptions
-  name: swatch-metricszrxe
+  name: swatch-metrics6ve0
 spec:
   port:
     targetPort: 8000
