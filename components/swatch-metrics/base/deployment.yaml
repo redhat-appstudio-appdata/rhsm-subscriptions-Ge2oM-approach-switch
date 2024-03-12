@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: swatch-metrics
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-metrics@sha256:2648b0c090ba9f0afe58dd88ae0aaa9b11c884a44aeadc8664d375badbee4d09
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-metrics@sha256:96746dc6c9cc7f3a66efd1a3a3a4b7df71a929fe2489bbc39d04c689d4ace432
         imagePullPolicy: Always
         name: container-image
         ports:
