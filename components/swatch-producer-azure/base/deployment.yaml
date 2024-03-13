@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: swatch-producer-azure
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-producer-azure@sha256:bec9c4482e78527922059e50d30145be8effda757ce2e24ef68757aece3f4775
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/swatch-producer-azure@sha256:1530f7b7560c75088e58c31b5b1ee8c0a689d8a32ced104a492de08d8415a68e
         imagePullPolicy: Always
         name: container-image
         ports:
